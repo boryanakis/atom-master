@@ -1,0 +1,20 @@
+~~~~~   4.8.6.lua   ~~~~~
+local help_message = [[
+QT 4.8.6
+
+This module loads the QT environment.
+
+]]
+
+help(help_message,"\n")
+
+whatis("Name: qt")
+whatis("Version: 4.8.6")
+whatis("Category: library, runtime support")
+whatis("Keywords: System, Library")
+whatis("URL: https://www.qt.io/")
+
+prepend_path("PATH",                "/panfs/pfs.local/software/install/qt/4.8.6/bin")
+prepend_path("LD_LIBRARY_PATH",     "/panfs/pfs.local/software/install/qt/4.8.6/lib")
+prepend_path("PKG_CONFIG_PATH",     "/panfs/pfs.local/software/install/MRO/3.3/microsoft-r/3.3/lib64/pkgconfig")
+family("qt")

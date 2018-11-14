@@ -1,0 +1,28 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "3ad967e2-491f-4954-890f-b2bd5c946db5"
+  core:
+    disabledPackages: [
+      "linter"
+      "linter-markdown"
+      "linter-shellcheck"
+      "linter-ui-default"
+    ]
+    telemetryConsent: "limited"
+    useTreeSitterParsers: false
+  "exception-reporting":
+    userId: "262b3161-83fc-4704-8bf5-08c78d247ebf"
+  "hey-pane":
+    expandedWidth: 97
+  kite:
+    editorMetricsEnabled: "yes"
+    showEditorVacanciesNotificationOnStartup: false
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    showPanel: true
+  "remote-ftp":
+    connector:
+      sshConfigPath: "~/.ssh/config"
+  welcome:
+    showOnStartup: false

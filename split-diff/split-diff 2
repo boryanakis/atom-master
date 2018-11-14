@@ -1,0 +1,27 @@
+~~~~~   5.9.0.lua   ~~~~~
+local help_message = [[
+QT 5.9.0
+
+This module loads the QT environment.
+
+]]
+
+help(help_message,"\n")
+
+whatis("Name: qt")
+whatis("Version: 5.9.0")
+whatis("Category: library, runtime support")
+whatis("Keywords: System, Library")
+whatis("URL: https://www.qt.io/")
+
+prepend_path{"PATH",                "/panfs/pfs.local/software/install/qt/5.9.0/bin", priority="101"}
+prepend_path("QT_PLUGIN_PATH",      "/panfs/pfs.local/software/install/qt/5.9.0/plugins")
+prepend_path("LD_LIBRARY_PATH",     "/panfs/pfs.local/software/install/qt/5.9.0/lib")
+prepend_path("INCLUDE",           "/panfs/pfs.local/software/install/qt/5.9.0/include")
+prepend_path("PKG_CONFIG_PATH",   "/panfs/pfs.local/software/install/qt/5.9.0/lib/pkgconfig")
+
+prereq (atleast("compiler/gcc","4.9"))
+
+load ("gstreamer/.1.12.2")
+
+family("qt")
