@@ -8,9 +8,14 @@
       "linter-markdown"
       "linter-shellcheck"
       "linter-ui-default"
+      "about"
+      "archive-view"
     ]
     telemetryConsent: "limited"
     useTreeSitterParsers: false
+  editor:
+    preferredLineLength: 140
+    softWrap: true
   "exception-reporting":
     userId: "262b3161-83fc-4704-8bf5-08c78d247ebf"
   "hey-pane":
