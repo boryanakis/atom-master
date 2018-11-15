@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "3ad967e2-491f-4954-890f-b2bd5c946db5"
+  "autocomplete-python":
+    useKite: false
   core:
     disabledPackages: [
       "linter"
